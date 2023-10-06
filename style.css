@@ -1,0 +1,172 @@
+/* Organized the css file alphabetically, which seemed the best choice for this project */
+
+address{
+    text-align: center;
+}
+
+#alumniPhoto{
+    max-width: 70%;
+    max-height: 70%;
+    padding-top: 25px;
+}
+
+
+article> h2{
+    margin-left: 2%;
+    font-size: 25px;
+    font-family: 'Black Ops One', cursive;
+
+}
+
+article > p{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  font-size: 20px;
+  font-family: 'Dosis', sans-serif;
+}
+
+
+body{
+
+    background-color: lightgreen;
+}
+
+#captains{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 78%;
+}
+
+
+#captains img{
+max-height: 400px;
+max-width: 350px;
+padding-left: 60px;
+padding-right: 60px;
+padding-top: 40px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+figure{
+    display: inline-block;
+    text-align: center;
+    margin: 0px;
+}
+
+figcaption{
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+footer{
+    background-color: rgb(64, 194, 64);
+    opacity: 80%;
+}
+
+footer img{
+    max-height: 50px;
+    max-width: 50px;
+    display: block;
+    
+}
+
+form input{
+    margin-bottom:  20px;
+}
+
+form div{
+    background-color:papayawhip;
+    border-style: inset;
+    border-width: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#homePhoto{
+    max-width: 400px;
+    max-height: 400px;
+    padding: 15px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    padding-top: 50px;
+}
+
+#location{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+
+nav{
+    background-color: turquoise;
+    min-height: 100px;
+    margin-top: -20px;
+
+}
+
+
+nav li{
+    display: inline;
+    border-style: groove;
+    border-width: 5px;
+    margin-left: 50px;  
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin: 50px;
+    position: relative; top: 40px;
+
+}
+
+
+nav ul{
+    width: 95%;
+}
+
+table{
+    border: papayawhip;
+    background-color: papayawhip;
+    border-style: groove;
+    border-width: 5px;
+    padding: 8px;
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+td{
+border: black;
+border-width: 2px;
+border-style:ridge;
+padding: 10px;
+background-color: peachpuff;
+font-family: 'Dosis', sans-serif;
+font-size: 17px;
+}
+
+
