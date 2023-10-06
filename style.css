@@ -1,172 +1,201 @@
-/* Organized the css file alphabetically, which seemed the best choice for this project */
-
-address{
+* {
+    font-family: sans-serif;
     text-align: center;
+font-size: 16px;
 }
-
-#alumniPhoto{
-    max-width: 70%;
-    max-height: 70%;
-    padding-top: 25px;
-}
-
-
-article> h2{
-    margin-left: 2%;
-    font-size: 25px;
-    font-family: 'Black Ops One', cursive;
-
-}
-
-article > p{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  font-size: 20px;
-  font-family: 'Dosis', sans-serif;
-}
-
 
 body{
-
-    background-color: lightgreen;
-}
-
-#captains{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 78%;
+    background-color: #5f6366;
 }
 
 
-#captains img{
-max-height: 400px;
-max-width: 350px;
-padding-left: 60px;
-padding-right: 60px;
-padding-top: 40px;
+
+.column1, .column2, .column3, .column4 {
+    width: 40%;
+    height: 20em;
+    float: left;
+    margin: 5%;
+    margin-top: 0%;
+background-color:#86B3D1;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-  }
 
-figure{
-    display: inline-block;
-    text-align: center;
-    margin: 0px;
+.photo{
+    float: left;
+    width: 50%;
+    max-height: 90%;
 }
 
-figcaption{
-    font-size: 20px;
-    font-family: 'Dosis', sans-serif;
-
-}
-
-footer{
-    background-color: rgb(64, 194, 64);
-    opacity: 80%;
-}
-
-footer img{
-    max-height: 50px;
-    max-width: 50px;
-    display: block;
-    
-}
-
-form input{
-    margin-bottom:  20px;
-}
-
-form div{
-    background-color:papayawhip;
-    border-style: inset;
-    border-width: 5px;
-    margin-bottom: 20px;
-    padding: 10px;
-}
-
-#homePhoto{
-    max-width: 400px;
-    max-height: 400px;
-    padding: 15px;
+.desc{
+    float: right;
+    width: 50%;
+    height: 100%;
 }
 
 h1{
-    text-align: center;
-    font-family: 'Black Ops One', cursive;
+    font-size: 3.5em;
+    color: white;
+    font-family: 'Playfair', serif;
 }
 
 h2{
-    text-align: center;
-    font-family: 'Black Ops One', cursive;
-    padding-top: 50px;
-}
-
-#location{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-}
-
-
-nav{
-    background-color: turquoise;
-    min-height: 100px;
-    margin-top: -20px;
+    font-size:2.7em;
+    color: white;
+    font-family: 'Playfair', serif;
 
 }
 
 
-nav li{
-    display: inline;
-    border-style: groove;
-    border-width: 5px;
-    margin-left: 50px;  
-    margin-right: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 25px;
-    padding-top: 25px;
-    margin: 50px;
-    position: relative; top: 40px;
-
-}
-
-
-nav ul{
-    width: 95%;
-}
-
-table{
-    border: papayawhip;
-    background-color: papayawhip;
-    border-style: groove;
-    border-width: 5px;
-    padding: 8px;
-    display: block;
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-
+.photo img{
+    max-width: 95% ;
+    float: left;
+    margin: 2.5%;
+    padding-top: auto;
+    padding-bottom: auto;
     
 }
 
-td{
-border: black;
-border-width: 2px;
-border-style:ridge;
-padding: 10px;
-background-color: peachpuff;
-font-family: 'Dosis', sans-serif;
-font-size: 17px;
+.desc p{
+   margin: 1%;
+   margin-left: 2%;
+   margin-right: 2%; 
+   font-size: 1em;
+   color: #5f6366;
+   font-family: 'PT Sans', sans-serif;
+   
 }
 
+body {
+    width: 100%;
+    margin: 1% auto;}
+
+
+#nav li{
+    display: inline;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #4D6D9A;
+    font-size: 1em;
+    padding: 0.5%;
+}
+
+#nav li a{
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div#header{
+    background-color: #4D6D9A;
+}
+
+div#nav{
+    background-color: #99CED3;
+}
+
+div#localNav{
+    background-color: #86B3D1;
+    padding: 0.1%;
+}
+
+#localNav li{
+    display: inline;
+    margin: 1%;
+    background-color: #4D6D9A;
+    font-size: 1em;
+    padding: 0.2%;
+    
+}
+
+#localNav li a{
+    font-size: 1em;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#top4{
+    width: 5em;
+    border-style:dashed;
+    border-width: 0.2em;
+    border-color: #5f6366; 
+}
+
+
+.logo{
+    width: 5em;
+    border-style:dashed;
+    border-width: 0.2em;
+    border-color: #5f6366; 
+}
+
+#banner{
+    width:100%;
+}
+
+#banner img{
+    max-height: 30em;
+    width: 100%;
+}
+
+div#content h4{
+text-decoration: underline;
+font-size: 1.2em;
+color: whitesmoke;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+@media screen and (max-width: 1024px) and (min-width: 769px){
+    *{
+        font-size: 18px;
+    }
+    
+    .column1,.column2,.column3,.column4
+    {
+    width: 23%;
+    float: left;
+    margin-bottom: 1em;
+    margin: 1%;
+    height: 40em;
+    
+
+    }
+    .photo{
+        min-width: 95%;
+        margin-bottom: 1em;
+        margin: 2.5%;
+        height: auto;
+    }
+
+    .desc{min-width: 95%;
+        
+    }
+
+}
+
+
+ @media screen and (max-width: 768px){
+    *{
+        font-size: 20px;
+    }
+    .column1, .column2, .column3,.column4 {
+    width: 98%;
+    float: left;
+    margin-bottom: 1em;
+    margin: 1%;
+    height: auto;
+        }
+    
+ .column1 img, .column2 img, .column3 img, .column4 img{
+            max-width: 95% ;
+            height: 95%;
+            float: left;
+            margin: 1%;
+            
+        }
+
+
+        }
 
